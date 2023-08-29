@@ -22,18 +22,17 @@ app.use(express.static('public'));
 // Ruta para la página principal
 app.get('/', (req, res) => {
     // res.sendFile(`${__dirname}/public/index.html`);
-    const items = {
-        arr: [
-            {
-                name: 'Contact'
-            }
-        ]
-    }
+    // const items = {
+    //     arr: [
+    //         {
+    //             name: 'Contact'
+    //         }
+    //     ]
+    // }
 
     res.render('home',{
         name: "Jorge Emiro Almarales De Avila",
-        profession: "Dev",
-        items
+        profession: "Dev"
     })
 });
 
