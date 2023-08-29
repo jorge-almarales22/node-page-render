@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
     }
 
     res.render('home',{
-        name: "Jorge Almarales",
+        name: "Jorge Emiro Almarales De Avila",
         profession: "Dev",
         items
     })
